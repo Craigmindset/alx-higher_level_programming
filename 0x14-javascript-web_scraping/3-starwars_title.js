@@ -1,5 +1,4 @@
 !/usr/bin/node
-import requests
 
 def get_movie_title(episode_number):
     url = "https://swapi-api.alx-tools.com/api/films/{}".format(episode_number)
